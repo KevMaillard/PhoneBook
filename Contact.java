@@ -32,5 +32,10 @@ public class Contact {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+	@Override
+	public String toString() {
+		return this.lastName + " " + this.firstName + " " + this.phoneNumber;
+	}
     
 }
